@@ -1,20 +1,70 @@
-Welcome to Lumache's documentation!
-===================================
+- Nagłówki tekstowe (poziomy 1-4)
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+==========
+Nagłówek poziomu 1
+==========
 
-.. note::
+Nagłówek poziomu 2
+==========
 
-   This project is under active development.
+Nagłówek poziomu 3
+----------
 
-Contents
---------
+Nagłówek poziomu 4
+^^^^^^^^^^
+
+- Akapit tekstowy (treść)
+
+Akapit tekstowy z treścią
+
+- Akapit informacyjny (Note, Tip)
+
+.. Note::
+Treść notatki
+
+.. Tip::
+Treść wskazówki
+
+- Fragment kodu (liniowy, blokowy)
+
+``kod liniowy`` ::
+
+  Kod
+  Blokowy
+
+- Odnośnik (lokalny RtD, zewnętrzny-inny serwis)
+
+lokalny :ref:`Tip`
+
+zewnętrzny `Link tutaj <https://edu.gplweb.pl/?svc=courses&id=tida&lesson=14&class=4tp&load=43>`_
+
+- Listy
+
+#. Lista
+#. Numerowana
+
+* Lista
+* Wypunktowana 
+
+Lista
+  Definicji
+Kolejna
+  Przykład
+
+.. figure:: http://passnownow.com/wp-content/uploads/2015/06/duck.jpg
+   :alt: kaczka zdj
+
+   Podpis - kaczka typu fajna
+
+- Tabela
+
++------------------------------+----------------------------+
+|       Tabela typu fajne      |          Jabłko            |
+|                              |          Duże              |
++==============================+============================+
+|                              |         Rzecz              |
++------------------------------+----------------------------+
 
 .. toctree::
 
